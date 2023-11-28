@@ -1,0 +1,16 @@
+* CSS
+** tailwind 
+*** styles shared globally, but each class is singularly applied to an each element
+*** don't have to worry about maintaining separate style sheets or size of css bundle
+** css modules
+*** automatically create unique class names so no need to worry about style clashing
+** use clsx to toggle classNames for an element easily
+   
+* Fonts
+** Next.js automatically optimizes fonts in the application when you use the next/font module. It downloads font files at build time and hosts them with your other static assets.
+* Images
+** resizer?
+* Link compononent or regular hrefs
+*** application is code split by route segments, so errors for one page don't affect the rest of the code
+*** code for other Links is prefetched on load
+
