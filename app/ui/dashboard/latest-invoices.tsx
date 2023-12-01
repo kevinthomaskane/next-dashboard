@@ -7,7 +7,7 @@ import { fetchLatestInvoices } from '@/app/lib/data';
 
 export default async function LatestInvoices() {
   const x = await new Promise((resolve) => setTimeout(()=>{
-    resolve();
+    resolve(true);
   }, 3000))
   const latestInvoices = await fetchLatestInvoices();
   return (

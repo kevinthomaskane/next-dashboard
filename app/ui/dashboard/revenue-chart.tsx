@@ -12,7 +12,7 @@ import { fetchRevenue } from '@/app/lib/data';
 
 export default async function RevenueChart() {
   const x = await new Promise((resolve) => setTimeout(()=>{
-    resolve();
+    resolve(true);
   }, 5000))
   const revenue = await fetchRevenue();
   const chartHeight = 350;
