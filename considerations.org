@@ -13,4 +13,6 @@
 * Link compononent or regular hrefs
 *** application is code split by route segments, so errors for one page don't affect the rest of the code
 *** code for other Links is prefetched on load
+* Server Components
+** allows you to query your db directly from component, using async await, without need to call an api
 
